@@ -1,11 +1,41 @@
-body{
-	margin: 20px 0;
-	font-family: Arial,sans-serif;
-	font-size: 12px;
+
+h1{
+	font-size: 50px;
+	text-align: center;
 }
+
+p{
+	text-align: center;
+	font-size: 20px;
+}
+
+#endereco{
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+
+.msg_left{width:800px; height:300px; float:left;
+}
+
+.msg_rigth{width:1600px; height:300px; font-size: 80px; 
+
+}
+	
+#zap{ width: 50px; height: auto; display: block; margin: 15px auto
+
+}
+
+#email{ width: 50px; height: auto; display: block; margin: 15px auto
+
+}
+
+
 label{
 	display:block;
 	margin-top:15px;
+	
+
 }
 input{
 	display:block;
@@ -14,17 +44,14 @@ input{
 	background:#f0f0f0;
 	padding:10px;
 	margin-top: 5px;
-	width: 100%;
+	width: 600px;
+	
 }
-.container{
-	width: 960px;
-	margin:0 auto;
-}
-.g-recaptcha{
-	margin-top:15px;
-}
-.send{
-	background: #46ac00;
-	color: #fff;
+
+
+.envia{
+	background-color: #3CC47C;);
+	color: #333;
 	border: 0px;
+	margin: 12px;
 }
